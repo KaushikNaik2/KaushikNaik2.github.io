@@ -3,31 +3,150 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Happy Birthday [Girlfriend's Name]!</title>
+  <title >Happy Birthday Shravani !</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+ <body>
   <nav>
     <ul>
-      <li><a href="#timeline">Timeline</a></li>
-      <li><a href="#quiz">Love Quiz</a></li>
+    		<li><a href="#quiz">Love Quiz</a></li>
       <li><a href="#message">Message</a></li>
     </ul>
   </nav>
-
   <main>
-    <section id="timeline">
-      <h2>Our Journey Together</h2>
-      </section>
     <section id="quiz">
-      <h2>Love Quiz: How Well Do You Know Me?</h2>
-      </section>
-    <section id="message">
-      <h2>A Special Message for You</h2>
-      <button onclick="revealMessage()">Click to reveal hidden message!</button>
-    </section>
+  <h2>Test Your Love!</h2>
+  <p>Answer these questions to see how well you know about us and me.</p>
+ <form id="love-quiz">
+  <ul class="quiz-questions">
+
+    <li>
+      <label for="question1">1. What is my favorite thing about you?</label>
+      <ul>
+        <li><input type="radio" id="question1a" name="question1" value="a"> Your smile</li>
+        <li><input type="radio" id="question1b" name="question1" value="b"> Your laugh</li>
+        <li><input type="radio" id="question1c" name="question1" value="c"> Your kindness</li>
+        <li><input type="radio" id="question1d" name="question1" value="d"> Your intelligence</li>
+      </ul>
+    </li>
+
+    <li>
+      <label for="question2">2. What is our favorite activity to do together?</label>
+      <ul>
+        <li><input type="radio" id="question2a" name="question2" value="a"> Watching movies</li>
+        <li><input type="radio" id="question2b" name="question2" value="b"> Going for walks</li>
+        <li><input type="radio" id="question2c" name="question2" value="c"> Cooking together</li>
+        <li><input type="radio" id="question2d" name="question2" value="d"> Traveling</li>
+      </ul>
+    </li>
+
+    <li>
+      <label for="question3">3. What song reminds me of you?</label>
+      <ul>
+        <li><input type="radio" id="question3a" name="question3" value="a"> "Perfect" by Ed Sheeran</li>
+        <li><input type="radio" id="question3b" name="question3" value="b"> "All of Me" by John Legend</li>
+        <li><input type="radio" id="question3c" name="question3" value="c"> "CantHelp Falling in Love" by Elvis Presley</li>
+        <li><input type="radio" id="question3d" name="question3" value="d"> "A Thousand Years" by Christina Perri</li>
+      </ul>
+    </li>
+  		
+  		<li>
+      <label for="question4">4. What is our dream vacation destination?</label>
+      <ul>
+        <li><input type="radio" id="question4a" name="question4" value="a">  Paris</li>
+        <li><input type="radio" id="question4b" name="question4" value="b">  Hawaii</li>
+        <li><input type="radio" id="question4c" name="question4" value="c">  Tokyo</li>
+        <li><input type="radio" id="question4d" name="question4" value="d">  Satorini</li>
+      </ul>
+    </li>
+  		
+  		<li>
+      <label for="question5">5. What do I love the most about our relationship ?</label>
+      <ul>
+        <li><input type="radio" id="question5a" name="question5" value="a">  The way we support each other </li>
+        <li><input type="radio" id="question5b" name="question5" value="b">  Our sense of humor </li>
+        <li><input type="radio" id="question5c" name="question5" value="c">  The adventures we share</li>
+        <li><input type="radio" id="question5d" name="question5" value="d">  Our deep conversations</li>
+      </ul>
+    </li>
+  		
+  			<li>
+      <label for="question6">6. What is the first gift i ever gave you ? </label>
+      <ul>
+        <li><input type="radio" id="question6a" name="question6" value="a">  A book</li>
+        <li><input type="radio" id="question6b" name="question6" value="b">  A piece of jewelry</li>
+        <li><input type="radio" id="question6c" name="question6" value="c">  A stuffed animal</li>
+        <li><input type="radio" id="question6d" name="question6" value="d"> A handwritten note</li>
+      	</ul>
+    </li>
+  		
+  			<li>
+      <label for="question7">7. What is my favourite scent you wear?</label>
+      <ul>
+        <li><input type="radio" id="question7a" name="question7" value="a">  Floral</li>
+        <li><input type="radio" id="question7b" name="question7" value="b">  Fruity</li>
+        <li><input type="radio" id="question7c" name="question7" value="c">  Woody</li>
+        <li><input type="radio" id="question7d" name="question7" value="d">  Fresh</li>
+      </ul>
+    </li>
+  		
+  		<li>
+      <label for="question8">8. What was the first thing I noticed about you?</label>
+      <ul>
+        <li><input type="radio" id="question8a" name="question8" value="a">  Your eyes</li>
+        <li><input type="radio" id="question8b" name="question8" value="b">  Your smile</li>
+        <li><input type="radio" id="question8c" name="question8" value="c">  Your laugh</li>
+        <li><input type="radio" id="question8d" name="question8" value="d">  Your style</li>
+      </ul>
+    </li>
+  		
+  		<li>
+      <label for="question9">9. What is the most thoughtful gift you’ve received from me?</label>
+      <ul>
+        <li><input type="radio" id="question9a" name="question9" value="a">  Jewelry</li>
+        <li><input type="radio" id="question9b" name="question9" value="b">  A handwrittem letter</li>
+        <li><input type="radio" id="question9c" name="question9" value="c">  Making an edit for your birthday with crazy ass music</li>
+        <li><input type="radio" id="question9d" name="question9" value="d">  Building a fucking website for your birthday :)</li>
+      </ul>
+    </li>
+
+    <li>
+      <label for="question10">10. What is something you do that always makes me smile?</label>
+      <ul>
+        <li><input type="radio" id="question10a" name="question10" value="a"> Telling jokes</li>
+        <li><input type="radio" id="question10b" name="question10" value="b"> Giving surprise hugs</li>
+        <li><input type="radio" id="question10c" name="question10" value="c"> Singing to me</li>
+        <li><input type="radio" id="question10d" name="question10" value="d"> Sending sweet messages</li>
+      </ul>
+    </li>
+
+    <li>
+      <button type="submit">Submit Quiz</button>
+    </li>
+  </ul>
+</form>
+
+  <div id="results" style="display: none;"> <h2>Your Results</h2>
+    <p id="score"></p>
+  		<div id="results">
+    </div>
+    <p id="message"> </p>
+  </div>
+</section>
+  <section id="message">
+  		<h2>Here is a secret message for you</h2>
+    <button onclick="myFunction()">Click me</button>
+    <p id="demo"></p>
+    <script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = 
+		"Happy Birthday, my love! You make every day magical. I have a special surprise for you, one that can answer all your questions and keep you company whenever you need. Think of it as a new friend, always ready to chat and make you smile. Just ask, and it will be there for you. But currently I am working on it so it would take some time to build but it would be ready till you next birthday, till then try to guess what it would be !!! ";
+}
+</script>
+    </section>  
   </main>
 
   <script src="script.js"></script>
+
 </body>
-</html>
+  </html>
