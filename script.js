@@ -81,4 +81,9 @@ form.addEventListener("submit", function(event) {
   displayResults(score);
 });
 
+const redirectButton = document.getElementById('redirectButton');
+
+redirectButton.addEventListener('click', () => {
+  window.location.href = "https://kaushiknaik2.github.io/yapping/"; // Replace with your target URL
+});
 
